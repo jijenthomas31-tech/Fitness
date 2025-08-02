@@ -1,0 +1,838 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+
+
+.navbar{
+	background-color: black;
+	padding: 20px 100px;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+	border-block: 1px solid #333333;
+}
+
+.navbar .nav ul{
+	display: flex;
+	padding: 10px;
+}
+
+.navbar .nav ul li{
+	margin: 20px;
+}
+
+.navbar .nav ul li:hover a{
+	color: #45FFCA;
+}
+
+.navbar .nav ul li a{
+	color: white;
+}
+
+.navbar .navicon{
+	display: flex;
+}
+
+.navbar .navicon img{
+	width: 80px;
+	margin-bottom: 10px;
+}
+
+.navbar .navicon h1{
+	color: white;
+	padding: 20px 5px;
+}
+
+.navbar .navicon span{
+	color: #45FFCA;
+}
+
+.toggle-btn {
+    display: none; 
+    font-size: 30px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.footer{
+	background-color: #111111;
+	padding: 60px 100px;
+	overflow: hidden;
+	display: table;
+	font-size: 18px;
+}
+
+.footer .fpara1{
+	display: table-cell;
+	width: 30%;
+	color: white;
+}
+
+.footer .fpara1 p{
+	width: 70%;
+	padding: 10px 0;
+}
+
+.footer .fpara2{
+	display: table-cell;
+	width: 20%;
+	color: white;
+}
+
+.footer li{
+	padding: 10px 0;
+	transition: all 0.5s;
+}
+
+.footer li:hover{
+	transform: translateX(10px);
+}
+
+.footer li a{
+	color: white;
+}
+
+.footer li:hover a{
+	color: #45FFCA;
+}
+
+.footer h3{
+	padding-bottom: 10px;
+	color: #45FFCA;
+}
+
+.footer i{
+	padding-right: 5px;
+	color: teal;
+}
+
+.footer .fpara3{
+	display: table-cell;
+	width: 20%;
+	color: white;
+}
+
+.footer .fpara4{
+	display: table-cell;
+	width: 20%;
+	color: white;
+}
+
+.home{
+	background-color: black;
+	padding: 80px 100px;
+	overflow: hidden;
+}
+
+.home .home1{
+	display: flex;
+}
+
+.home .home1 img{
+	width: 600px;
+}
+
+.home .home1 .hpara{
+	padding: 80px 60px;
+}
+
+.home .home1 .hpara h2{
+	font-size: 50px;
+	color: white;
+}
+
+.home .home1 .hpara p{
+	width: 80%;
+	text-align: justify;
+	font-size: 20px;
+	padding-top: 20px;
+	padding-bottom: 40px;
+	color: white;
+}
+
+.home .home1 .hpara button{
+	width: 200px;
+	border-radius: 10px;
+	margin-left: 120px;
+	padding: 20px 0;
+	background-color: #45FFCA;
+	border: 0;
+	outline: 0;
+}
+
+.home .home1 .hpara button a{
+	color: black;
+}
+
+.home .home1 .hpara button:hover{
+	color: white;
+    box-shadow: 0 0 1.6rem #45FFCA;
+}
+
+.home .home1 .hpara button:hover a{
+	color: white;
+    box-shadow: 0 0 1.6rem white;
+}
+
+.about{
+	background-color: black;
+	padding: 80px 100px;
+	overflow: hidden;
+	display: flex;
+}
+
+.about .apara h1{
+	color: #45FFCA;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.about .apara .p1{
+	text-align: center;
+	font-size: 30px;
+}
+
+.about .apara p{
+	color: white;
+	font-size: 20px;
+	text-align: justify;
+}
+
+.about .apara h3{
+	color: #45FFCA;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.about .aimg img{
+	width: 600px;
+	padding-top: 80px;
+}
+
+.service{
+	background-color: black;
+	padding: 80px 100px;
+	overflow: hidden;
+}
+
+.service .service1{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.service .s1{
+	width: 30%;
+	height: 340px;
+	border-radius: 10px;
+	background-color: black;
+	border: 1px solid #45FFCA;
+	margin: 15px;
+	transition: all 0.5s;
+}
+
+.service .s1 img{
+	width: 95%;
+	height: 250px;
+	border-radius: 10px;
+	margin: 10px;
+}
+
+.service .s1 h2{
+	color: white;
+	padding: 10px;
+}
+
+.service .s1:hover{
+	transform: scale(1.05);
+	color: white;
+    box-shadow: 0 0 1rem #45FFCA;
+}
+
+.trainer{
+	background-color: black;
+	padding: 80px 100px;
+	overflow: hidden;
+}
+
+.trainer .t1{
+	width: 70%;
+	border: 1px solid #45FFCA;
+	margin: 0 auto;
+	background-color: black;
+	padding: 20px 10px;
+}
+
+.trainer .timg{
+	width: 400px;
+	height: 400px;
+	margin: 0 auto;
+	border: 1px solid #45FFCA;
+	background-color: black;
+	border-radius: 50%;
+	overflow: hidden;
+
+}
+
+.trainer img{
+	width: 400px;
+	height: 400px;
+	border-radius: 50%;
+}
+
+.trainer h1{
+	text-align: center;
+	color: red;
+	padding-top: 20px;
+	font-size: 50px;
+}
+
+.trainer .t1 p{
+	text-align: center;
+	color: white;
+	padding: 10px;
+	width: 70%;
+	margin: 0 16%;
+	font-size: 20px;
+}
+
+.blog{
+	background-color: black;
+	padding: 20px 140px;
+}
+
+.blog .bg1{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.blog .bg1 .bg{
+	width: 30%;
+	overflow: hidden;
+	border: 1px solid #45FFCA;
+	border-radius: 15px;
+	background-color: black;
+	margin: 20px;
+}
+
+.blog .bg1 .bg .bgimg{
+	width: 100%;
+	height: 350px;
+	overflow: hidden;
+}
+
+.blog .bg1 .bg img{
+	width: 100%;
+	transform: scale(1.2);
+	transition: all 0.5s;
+}
+
+.blog .bg1 .bg:hover img{
+	transform: scale(1);
+}
+
+.blog .bg1 .bg .bgpara{
+	padding: 10px;
+	color: white;
+}
+
+.blog .bg1 .bg .bgpara h2{
+	padding: 10px 0;
+	color: white;
+}
+
+.blog .bg1 .bg .bgpara h2 a{
+	color: red;
+}
+
+.blog .bg1 .bg .bgi{
+	display: flex;
+	justify-content: space-between;
+}
+
+.feedback{
+	background-color: black;
+	padding: 30px 100px;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.feedback .ffpara{
+	width: 500px;
+	height: 600px;
+	border: 1px solid #45FFCA;
+	background-color: black;
+	padding: 30px 0;
+	color: white;
+    box-shadow: 0 0 1.6rem #45FFCA;
+}
+
+.feedback .ffpara .fp{
+	width: 400px;
+	height: 70px;
+	border: 1px solid;
+	background-color: white;
+	margin: 15px auto;
+}
+
+.feedback .ffpara .fp1{
+	width: 400px;
+	height: 200px;
+	border: 1px solid;
+	background-color: white;
+	margin: 15px auto;
+}
+
+.feedback .ffpara .fp input{
+	width: 350px;
+	height: 50px;
+	margin: 10px;
+	border: 0;
+	outline: 0;
+}
+
+.feedback .ffpara .fp1 textarea{
+	width: 384px;
+	height: 180px;
+	margin: 10px;
+	border: 0;
+	outline: 0;
+}
+
+.feedback .ffpara button{
+	padding: 15px 20px;
+	margin-left: 35%;
+	background-color: #45FFCA;
+	border: 0;
+	box-shadow: 0 0 0.5rem white;
+	margin-top: 10px;
+}
+
+.feedback .ffpara button a{
+	color: black;
+	font-size: 15px;
+}
+
+.feedback .ffpara button:hover{
+	color: white;
+    box-shadow: 0 0 1.6rem #45FFCA;
+}
+
+.feedback .ffpara button:hover a{
+	color: white;
+    box-shadow: 0 0 1.6rem white;
+}
+
+.contact{
+	background-color: black;
+	padding: 30px 100px;
+	overflow: hidden;
+}
+
+.contact .contact1{
+	display: flex;
+}
+
+.contact .contact1 img{
+	width: 900px;
+}
+
+.contact .contact1 .c1{
+	width: 300px;
+	height: 200px;
+	border: 1px solid #45FFCA;
+	color: white;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	box-shadow: 0 0 1.6rem #45FFCA;
+	margin: 50px 0;
+	transition: all 0.5s;
+}
+
+.contact .contact1 .c1:hover{
+	transform: translateX(20px);
+}
+
+.contact .contact1 .c1 i{
+	font-size: 40px;
+	color: red;
+	padding-bottom: 15px;
+}
+
+.contact .contact1 .c1 h4{
+	color: #45FFCA;
+}
+
+.contact .contact1 .c1 a{
+	color: white;
+	font-size: 20px;
+}
+
+.bmi{
+    background-color: black;
+    padding: 30px 120px;
+    overflow: hidden;
+}
+
+.bmi .container {
+    max-width: 300px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #45FFCA;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: white;
+    text-align: center;
+    box-shadow: 0 0 1.6rem #45FFCA;
+}
+
+.bmi .container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.bmi .container button {
+    background: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #45FFCA;
+}
+
+.workout{
+	background-color: black;
+    padding: 30px 120px;
+    overflow: hidden;
+    display: flex;
+}
+
+.workout .w1{
+	width: 300px;
+	height: 200px;
+	border: 1px solid #45FFCA;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 10px;
+}
+
+.workout .w1:hover{
+	color: white;
+    box-shadow: 0 0 1.6rem #45FFCA;
+}
+
+.workout .w1 h3 a{
+	color: #45FFCA;
+}
+
+.workout .w1 p{
+	color: white;
+	text-align: center;
+}
+
+.pt{
+	background-color: black;
+	padding: 20px 100px;
+	overflow: hidden;
+	color: white;
+}
+
+.pt .e1{
+	margin: 20px 0;
+}
+
+.pt .e1 img{
+	width: 200px;
+}
+
+.pt button{
+	padding: 6px 15px;
+	background-color: #45FFCA;
+}
+
+.pt button:hover{
+	color: white;
+	box-shadow: 0 0 1rem #45FFCA;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:320px) and (max-width:480px){
+	.navbar{
+		flex-direction: column;
+		margin: 0;
+		padding: 10px;
+	}
+
+	.navbar .nav ul li{
+		margin: auto;
+		font-size: 8px;
+	}
+
+	.home{
+		flex-direction: column;
+		margin: 0;
+		padding: 10px;
+	}
+
+	.home .home1{
+		flex-direction: column;
+		padding: 0;
+	}
+
+	.home .home1 img{
+		width: 300px;
+		margin: 20px auto;
+	}
+
+	.home .home1 .hpara{
+		padding: 10px;
+		text-align: center;
+	}
+
+	.home .home1 .hpara h2{
+		font-size: 20px;
+		width: 100%;
+	}
+
+	.home .home1 .hpara p{
+		width: auto;
+	}
+
+	.home .home1 .hpara button{
+		margin: 0 auto;
+		width: auto;
+		padding: 20px;
+	}
+
+	.footer{
+		padding: 10px;
+	}
+
+	.footer{
+		flex-direction: column;
+		display: flex;
+	}
+
+	.footer h3{
+		padding-top: 20px;
+	}
+
+	.footer .fpara1{
+		width: auto;
+	}
+
+	.footer .fpara1 p{
+		width: 100%;
+	}
+
+	.footer .fpara4{
+		width: auto;
+	}
+
+	.footer .fpara4 p{
+		width: 100%;
+	}
+
+	.about{
+		padding: 10px;
+		flex-direction: column;
+	}
+
+	.about .aimg{
+		margin: 0 auto;
+	}
+
+	.about .aimg img{
+		width: 300px;
+		padding-top: 30px;
+	}
+
+	.service{
+	padding: 10px;
+    }
+
+    .service .service1{
+	flex-direction: column;
+    }
+
+    .service .s1{
+	width: 100%;
+	margin: 15px 0;
+    }
+
+    .trainer{
+    	padding: 10px;
+    }
+
+    .trainer .t1{
+    	width: 100%;
+    	padding: 10px;
+    }
+
+    .trainer .t1 .timg{
+    	width: 200px;
+    	height: 200px;
+    }
+
+    .trainer .t1 .timg img{
+    	width: 100%;
+    	height: 100%;
+    }
+
+    .trainer .t1 h1{
+    	font-size: 30px;
+    }
+
+    .trainer .t1 p{
+    	width: 100%;
+    	text-align: justify;
+    	margin: 0;
+    }
+
+    .blog{
+    	padding: 10px;
+    }
+
+    .blog .bg1{
+    	flex-direction: column;
+    }
+
+    .blog .bg1 .bg{
+    	width: 100%;
+    	margin: 10px 0;
+    }
+
+    .feedback{
+    	display: block;
+    	padding: 30px 10px;
+    }
+
+    .feedback .ffpara{
+    	width: auto;
+    	height: auto;
+    }
+
+    .feedback .ffpara .fp {
+       width: 250px;
+       height: 50px;
+    }
+
+    .feedback .ffpara .fp input {
+       width: auto;
+       height: auto;
+    }
+
+    .feedback .ffpara .fp1 {
+       width: 250px;
+       height: 200px;
+    }
+
+    .feedback .ffpara .fp1 textarea {
+       width: auto;
+       height: auto;
+    }
+
+    .feedback .ffpara button {
+       margin-left: 28%;
+    }
+
+    .contact{
+    	padding: 15px;
+    }
+
+    .contact .contact1{
+    	flex-direction: column;
+    }
+
+    .contact .contact1 img{
+    	width: 100%;
+    }
+
+    .contact .contact1 .c1{
+    	width: 100%;
+    }
+
+    .bmi{
+    	padding: 15px;
+    }
+
+
+
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    .toggle-btn {
+        display: block;
+        color: white;
+    }
+
+    .nav{
+        display: none;
+        width: 100%;
+        position: absolute;
+        top: 150px;
+        left: 0;
+        background: black;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .nav ul{
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .nav ul li {
+        margin: 10px 0;
+    }
+
+    .nav ul li a{
+    	color: black;
+    	font-size: 15px;
+    }
+
+    .nav.active{
+        display: block;
+    }
+}
